@@ -11,8 +11,8 @@ RUN apt-get update && \
   chromium && \
   rm -rf /var/lib/apt/lists/*
 
-WORKDIR /bot
-COPY . /bot
+WORKDIR /botwa
+COPY . /botwa
 
 RUN npm install
 
