@@ -1,8 +1,8 @@
 {
   "ownerNumber": "6289504585790@c.us",
-  "memberLimit": 3,
-  "groupLimit": 30,
-  "prefix": "/",
+  "memberLimit": 50,
+  "groupLimit": 10,
+  "prefix": ".",
   "groupOfc": "",
   "stickerHash": {
     "menu": "y75El/Dq8ktqPIlBM+L+JlJ7EJ69yJXBcRF+zv4ILCo=",
