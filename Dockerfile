@@ -16,6 +16,9 @@ COPY . /app
 
 RUN npm install
 RUN npm install pm2 -g
+RUN pm2 save
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+RUN apt install ./google-chrome-stable_current_amd64.deb
 
 CMD ["pm2-runtime", "index.js"]
 EXPOSE 6892
