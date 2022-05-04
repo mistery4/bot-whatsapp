@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2-runtime index.js",
+    "start": "node index",
     "postinstall": "patch-package"
   },
   "author": "M imam Adi",
