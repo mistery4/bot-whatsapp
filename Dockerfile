@@ -11,8 +11,8 @@ RUN apt-get update && \
   chromium && \
   rm -rf /var/lib/apt/lists/*
 
-WORKDIR /botwa
-COPY . /botwa
+WORKDIR /adiofficial
+COPY . /adiofficial
 
 RUN npm install
 RUN npm install pm2 -g
