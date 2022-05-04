@@ -11,8 +11,8 @@ RUN apt-get update && \
   chromium && \
   rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
-COPY . /app
+WORKDIR /root
+COPY . /root
 
 RUN npm install
 RUN npm install pm2 -g
